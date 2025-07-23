@@ -1,0 +1,172 @@
+/* 
+  Author: Ese G. Odiase
+*/
+  :root {
+    --body-bg: hsl(30, 38%, 92%);
+    --card-bg: hsl(0, 0%, 100%);
+    --primary-color: hsl(212, 21%, 14%);
+    --primary-font: clamp(0.7rem, 0.875rem + 1vw, 0.92rem);
+    --secondary-font: clamp(1rem, 1.8rem + 1vw, 2.8rem);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(228, 12%, 48%);
+    --green: hsl(158, 36%, 37%);
+    --active: hsl(158, 42%, 18%);
+    --font-family-1: 'Montserrat', sans-serif;
+    --font-family-2: 'Fraunces', sans-serif;
+  }
+  
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    background: var(--body-bg);
+    color: var(--primary-color);
+    font-size: var(--primary-font);
+    font-weight: 460;
+    font-family: var(--font-family-1);
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .container {
+    margin-block: 1.25rem;
+    margin-inline: 1.25rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-image {
+    background-image: url(./images/image-product-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 22.5rem;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .bottom-right {
+    text-align: center;
+    height: auto;
+    background: var(--card-bg);
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .bottom-right p {
+    text-align: left;
+    margin-block: 1rem;
+    margin-inline: 1.875rem;
+  }
+  
+  .bottom-right .text-1 {
+    padding-block-start: 1.25rem;
+    text-transform: uppercase;
+    color: var(--grey);
+    letter-spacing: 0.21875rem;
+  }
+  
+  .bottom-right .text-2{
+    font-family: var(--font-family-2);
+    font-size: var(--secondary-font);
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  
+  .bottom-right .text-3{
+    line-height: 1.6;
+    color: var(--grey);
+  }
+  
+  .bottom-right .prices{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .bottom-right .prices .current{
+    font-family: var(--font-family-2);
+    font-size: var(--secondary-font);
+    font-weight: 700;
+    color: var(--green);
+  }
+  
+  .bottom-right .prices .previous{
+    margin-inline-start: -1rem;
+    align-self: center;
+    text-decoration: line-through;
+    color: var(--grey);
+  }
+  
+  .bottom-right button {
+    border: none;
+    border-radius: 8px;
+    font-size: var(--primary-font);
+    font-weight: 700;
+    width: 82%;
+    background: var(--green);
+    color: var(--white);
+    margin-inline: 1.875rem;
+    margin-block-start: 0.875rem;
+    margin-block-end: 2.1875rem;
+    padding-block: 1rem;
+    padding-inline-start: 2.5rem;
+    padding-inline-end: 1rem;
+    position: relative;
+  }
+  
+  .bottom-right button .icon{
+    width: 0.9375rem;
+    height: 1rem;
+    background-image: url(./images/icon-cart.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-inline-start: -1.25rem;
+    position: absolute;
+  }
+  
+  @media (min-width: 37.5rem){
+    .bottom-right button {
+      width: 92%;
+    }
+  }
+  
+  @media (min-width: 48rem) {
+    .container {
+      flex-direction: row;
+    }
+    
+    .product-image{
+      background-image: url(./images/image-product-desktop.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    .product-image,
+    .bottom-right {
+      width: 20.5rem;
+      height: 30.625rem;
+      border-radius: 10px 0 0 10px;
+    }
+    
+    .bottom-right {
+      border-radius: 0 10px 10px 0;
+    }
+    
+    .bottom-right button {
+      cursor: pointer;
+      width: 82%;
+    }
+    
+    .bottom-right button:hover {
+      background: var(--active);
+    }
+  }
+    
+  .attribution, h1 {
+    text-align: center;
+    display: none;
+  }
