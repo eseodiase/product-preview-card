@@ -13,6 +13,7 @@
     --active: hsl(158, 42%, 18%);
     --font-family-1: 'Montserrat', sans-serif;
     --font-family-2: 'Fraunces', sans-serif;
+    --container-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
   }
   
   body,
@@ -39,6 +40,9 @@
     margin-inline: 1.25rem;
     display: flex;
     flex-direction: column;
+    box-shadow: var(--container-shadow);
+    -webkit-box-shadow: var(--container-shadow);
+    -moz-box-shadow: var(--container-shadow);
   }
   
   .product-image {
