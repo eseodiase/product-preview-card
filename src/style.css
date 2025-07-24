@@ -49,64 +49,64 @@
     border-radius: 10px 10px 0 0;
   }
   
-  .bottom-right {
+  .product-description {
     text-align: center;
     height: auto;
     background: var(--card-bg);
     border-radius: 0 0 10px 10px;
   }
   
-  .bottom-right p {
+  .product-description p {
     text-align: left;
     margin-block: 1rem;
     margin-inline: 1.875rem;
   }
   
-  .bottom-right .text-1 {
+  .product-description .text-1 {
     padding-block-start: 1.25rem;
     text-transform: uppercase;
     color: var(--grey);
     letter-spacing: 0.21875rem;
   }
   
-  .bottom-right .text-2{
+  .product-description .text-2{
     font-family: var(--font-family-2);
     font-size: var(--secondary-font);
     font-weight: 700;
     line-height: 1.1;
   }
   
-  .bottom-right .text-3{
+  .product-description .text-3{
     line-height: 1.6;
     color: var(--grey);
   }
   
-  .bottom-right .prices{
+  .product-description .prices{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
   }
   
-  .bottom-right .prices .current{
+  .product-description .prices .current{
     font-family: var(--font-family-2);
     font-size: var(--secondary-font);
     font-weight: 700;
     color: var(--green);
   }
   
-  .bottom-right .prices .previous{
+  .product-description .prices .previous{
     margin-inline-start: -1rem;
     align-self: center;
     text-decoration: line-through;
     color: var(--grey);
   }
   
-  .bottom-right button {
+  .product-description button {
     border: none;
     border-radius: 8px;
     font-size: var(--primary-font);
     font-weight: 700;
-    width: 82%;
+    width: 80%;
     background: var(--green);
     color: var(--white);
     margin-inline: 1.875rem;
@@ -118,7 +118,7 @@
     position: relative;
   }
   
-  .bottom-right button .icon{
+  .product-description button .icon{
     width: 0.9375rem;
     height: 1rem;
     background-image: url(./images/icon-cart.svg);
@@ -128,43 +128,65 @@
     position: absolute;
   }
   
+  /* Breakpoint 1: for small devices */
   @media (min-width: 37.5rem){
-    .bottom-right button {
-      width: 92%;
+    .product-image {
+      height: 44.5rem;
+    }
+    
+    .product-description button {
+      width: 90%;
     }
   }
   
+  /* Breakpoint 2: for medium devices */
   @media (min-width: 48rem) {
     .container {
       flex-direction: row;
     }
     
-    .product-image{
+    .product-image {
       background-image: url(./images/image-product-desktop.jpg);
       background-size: cover;
       background-repeat: no-repeat;
     }
     
     .product-image,
-    .bottom-right {
+    .product-description {
       width: 20.5rem;
       height: 30.625rem;
       border-radius: 10px 0 0 10px;
     }
     
-    .bottom-right {
+    .product-description {
       border-radius: 0 10px 10px 0;
     }
     
-    .bottom-right button {
+    .product-description button {
       cursor: pointer;
-      width: 82%;
+      width: 80%;
     }
     
-    .bottom-right button:hover {
+    .product-description button:hover {
       background: var(--active);
     }
   }
+  
+  /* Breakpoint 3: for large devices */
+  @media (min-width: 60rem) {
+    .product-image,
+    .product-description {
+      height: 33.75rem;
+    }
+    }
+    
+  /* Breakpoint 4: for extra large devices */
+  @media (min-width: 75rem) {
+    .product-image,
+    .product-description {
+      height: 36.25rem;
+    }
+    }
     
   .attribution, h1 {
     text-align: center;
