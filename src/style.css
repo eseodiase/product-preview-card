@@ -205,7 +205,7 @@
     }
     }
     
-  .attribution, h1 {
+  .attribution, .heading {
     text-align: center;
     display: none;
   }
