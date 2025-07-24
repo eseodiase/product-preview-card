@@ -42,30 +42,30 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow (developed entirely on mobile device)
+- Mobile-first workflow (developed entirely on my mobile device)
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+In the process of building this responsive product preview card, I learned breakpoints are way easier to add, plus additional features when you concentrate on starting with the mobile-first workflow development approach.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+<!-- This project was built with accessibility in mind.
+
+Here is a sample of the add-to-cart button below:
+-->
+
+  <button type="button" aria-label="Add perfume to cart">
+    <span class="icon" aria-label="cart icon"></span>
+     Add to Cart</button>
 ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
+Just started learning about Accessible Rich Internet Applications (ARIA) and would henceforth endeavor to build my web applications up to WCAG standard!
 
 ### Useful resources
 
+- [Frontend Mentor](https://www.frontendmentor.io/learning-paths) - Special learning pathway suitable for newbies, junior, intermediate, and advance frontend developers.
 - [Spck Editor Documentation](https://spck.io/docs) - Essential for mobile development setup and React SystemJS practice
 - [Screenfly](https://screenfly.org) - Useful for responsive testing without multiple devices
 - [Responsive Design Checker](https://www.responsivedesignchecker.com) - Also useful for responsive testing
