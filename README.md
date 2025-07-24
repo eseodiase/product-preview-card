@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/eseodiase/product-preview-cart)
+- [Live Site URL](https://eseodiase.github.io/product-preview-cart/)
 
 ## My process
 
@@ -40,7 +40,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
+- Mobile-first workflow (developed entirely on mobile device)
 
 ### What I learned
 
@@ -56,11 +56,6 @@ To see how you can add code snippets, see below:
   color: papayawhip;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
 ### Continued development
 
@@ -69,11 +64,12 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Spck Editor Documentation](https://spck.io/docs) - Essential for mobile development setup and React SystemJS practice
+- [Screenfly](https://screenfly.org) - Useful for responsive testing without multiple devices
+- [Responsive Design Checker](https://www.responsivedesignchecker.com) - Also useful for responsive testing
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@eseodiase](https://www.frontendmentor.io/profile/eseodiase)
 
 
