@@ -5,7 +5,7 @@
     --body-bg: hsl(30, 38%, 92%);
     --card-bg: hsl(0, 0%, 100%);
     --primary-color: hsl(212, 21%, 14%);
-    --primary-font: clamp(0.7rem, 0.875rem + 1vw, 0.92rem);
+    --primary-font: clamp(0.75rem, 0.875rem + 1vw, 0.96rem);
     --secondary-font: clamp(1rem, 1.8rem + 1vw, 2.8rem);
     --white: hsl(0, 0%, 100%);
     --grey: hsl(228, 12%, 48%);
@@ -134,6 +134,10 @@
       height: 44.5rem;
     }
     
+    .product-description .text-1 {
+      letter-spacing: 0.3125rem;
+    }
+    
     .product-description button {
       width: 90%;
     }
@@ -162,6 +166,10 @@
       border-radius: 0 10px 10px 0;
     }
     
+    .product-description .text-1 {
+      letter-spacing: 0.4375rem;
+    }
+    
     .product-description button {
       cursor: pointer;
       width: 80%;
@@ -176,7 +184,11 @@
   @media (min-width: 60rem) {
     .product-image,
     .product-description {
-      height: 33.75rem;
+      height: 32.5rem;
+    }
+    
+    .product-description .text-1 {
+      letter-spacing: 0.5625rem;
     }
     }
     
@@ -184,7 +196,7 @@
   @media (min-width: 75rem) {
     .product-image,
     .product-description {
-      height: 36.25rem;
+      width: 24.25rem;
     }
     }
     
