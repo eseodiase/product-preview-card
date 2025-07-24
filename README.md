@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://github.com/eseodiase/product-preview-cart)
-- [Live Site URL](https://eseodiase.github.io/product-preview-cart/)
+- [Solution URL](https://github.com/eseodiase/product-preview-card)
+- [Live Site URL](https://eseodiase.github.io/product-preview-card/)
 
 ## My process
 
