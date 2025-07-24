@@ -5,7 +5,7 @@
     --body-bg: hsl(30, 38%, 92%);
     --card-bg: hsl(0, 0%, 100%);
     --primary-color: hsl(212, 21%, 14%);
-    --primary-font: clamp(0.875rem, 0.9rem + 1vw, 0.94rem);
+    --primary-font: calc(0.92rem + 0.2vw);
     --secondary-font: clamp(1rem, 1.8rem + 1vw, 2.8rem);
     --white: hsl(0, 0%, 100%);
     --grey: hsl(228, 12%, 48%);
