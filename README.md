@@ -55,9 +55,9 @@ In the process of building this responsive product preview card, I learned break
 Here is a sample of the add-to-cart button below:
 -->
 
-  <button type="button" aria-label="Add perfume to cart">
-    <span class="icon" aria-label="cart icon"></span>
-     Add to Cart</button>
+    <button type="button" aria-label="Add perfume to cart">
+         <img src="./src/images/icon-cart.svg" alt="cart icon">
+         Add to Cart</button>
 ```
 
 ### Continued development
