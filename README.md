@@ -34,7 +34,6 @@ Users should be able to:
 
 - [Solution URL](https://github.com/eseodiase/product-preview-card)
 - [Live Site URL](https://eseodiase.github.io/product-preview-card/)
-
 ## My process
 
 ### Built with
@@ -73,6 +72,7 @@ Just started learning about Accessible Rich Internet Applications (ARIA) and wou
 
 ## Author
 
+- LinkedIn - [Ese Odiase](https://ng.linkedin.com/in/ese-g-odiase-220576196)
 - Frontend Mentor - [@eseodiase](https://www.frontendmentor.io/profile/eseodiase)
 
 

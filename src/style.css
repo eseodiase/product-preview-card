@@ -1,21 +1,33 @@
 /* 
-  Author: Ese G. Odiase
+  Author: Ese Odiase
 */
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap');
+
+/* CSS custom properties */
   :root {
+    /* colors */
     --body-bg: hsl(30, 38%, 92%);
     --card-bg: hsl(0, 0%, 100%);
     --primary-color: hsl(212, 21%, 14%);
-    --primary-font: calc(0.90rem + 0.2vw);
-    --secondary-font: clamp(1rem, 1.8rem + 1vw, 2.8rem);
     --white: hsl(0, 0%, 100%);
     --grey: hsl(228, 12%, 48%);
     --green: hsl(158, 36%, 37%);
     --active: hsl(158, 42%, 18%);
+    /* font sizes */
+    --primary-font: calc(0.90rem + 0.2vw);
+    --secondary-font: clamp(1rem, 1.8rem + 1vw, 2.8rem);
+    /* font family */
     --font-family-1: 'Montserrat', sans-serif;
     --font-family-2: 'Fraunces', sans-serif;
+    /* box shadow */
     --container-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
   }
   
+  /* Mobile first workflow */
   body,
   html {
     margin: 0;
