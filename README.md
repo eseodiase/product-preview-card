@@ -66,7 +66,7 @@ Just started learning about Accessible Rich Internet Applications (ARIA) and wou
 ### Useful resources
 
 - [Frontend Mentor](https://www.frontendmentor.io/learning-paths) - Special learning pathway suitable for newbies, junior, intermediate, and advance frontend developers.
-- [Spck Editor Documentation](https://spck.io/docs) - Essential for mobile development setup and React SystemJS practice
+- [Spck Editor Documentation](https://spck.io/documentation) - Essential for mobile development setup and React SystemJS practice
 - [Screenfly](https://screenfly.org) - Useful for responsive testing without multiple devices
 - [Responsive Design Checker](https://www.responsivedesignchecker.com) - Also useful for responsive testing
 
